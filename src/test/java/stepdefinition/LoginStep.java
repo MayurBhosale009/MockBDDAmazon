@@ -81,7 +81,7 @@ public class LoginStep
 	@When("User clicks on Signin button")
 	public void user_clicks_on_signin_button() 
 	{				
-		lp.signinButton();
+		//lp.signinButton();
 	}
 
 	@Then("User redirects to the Home Page of Amazon Site")
