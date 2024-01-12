@@ -1,9 +1,7 @@
 package driverfactory;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class LaunchBrowser 
 {
@@ -11,7 +9,7 @@ public class LaunchBrowser
 	public WebDriver initBrowser()
 	{
 		driver = new ChromeDriver();
-//		driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		return driver;
 	}
 	

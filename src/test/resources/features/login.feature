@@ -4,8 +4,8 @@ Given User is at the Login Page
 When User clicks on Signin tab
 And User enters the Email or mobile phone number as "<username>" and User clicks on Continue button and User enters the password as "<password>"
 | abc@gmail.com | pass@abc |
-| 918788584611 | Pass@123 |
 | mno@gmail.com | pass@mno |
+| 918788584611 | Pass@123 |
 
 #And User clicks on Continue button
 #And User enters the password as "<password>"

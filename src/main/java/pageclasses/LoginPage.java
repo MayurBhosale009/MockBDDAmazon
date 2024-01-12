@@ -1,14 +1,18 @@
 package pageclasses;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage 
 {
-	WebDriver driver;
+	WebDriver driver;// public static
 	
 	private @FindBy (xpath = "//*[text()='Hello, sign in']")
 	WebElement signin_tab;
@@ -67,20 +71,22 @@ public class LoginPage
 		signin_button.click();
 	}
 	
-	public WebElement wrongPass()
-	{
-		return wrong_pass;
-//		return logout_hower;
-	}
-	public WebElement rightPass()
-	{
+//	public WebElement wrongPass()
+//	{
 //		return wrong_pass;
-		return logout_hower;
-	}
+//		return logout_hower;
+//	}
+//	public WebElement rightPass()
+//	{
+//		return wrong_pass;
+//		return logout_hower;
+//	}
 	
 	public void signOut() throws InterruptedException
 	{
 		Actions act = new Actions(driver);
+		WebDriverWait wdw = new WebDriverWait(driver, Duration.ofSeconds(60));
+		wdw.until(ExpectedConditions.visibilityOf(logout_hower));
 		act.moveToElement(logout_hower).build().perform();
 		Thread.sleep(2000);
 		signout.click();

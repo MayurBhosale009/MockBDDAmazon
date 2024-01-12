@@ -1,4 +1,4 @@
-package apphooks;
+package stepdefinition;
 
 import org.openqa.selenium.WebDriver;
 
@@ -20,7 +20,7 @@ public class Hooks
 	@After
 	public void postReq() throws InterruptedException
 	{
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 		driver.quit();
 	}
 }
