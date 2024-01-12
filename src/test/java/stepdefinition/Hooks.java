@@ -1,6 +1,7 @@
 package stepdefinition;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import driverfactory.LaunchBrowser;
 import io.cucumber.java.After;
@@ -12,9 +13,11 @@ public class Hooks
 //	LaunchBrowser lb = new LaunchBrowser();
 	@Before
 	public void preReq()
-	{	
+{	
+	
 		LaunchBrowser lb = new LaunchBrowser();
 		driver = lb.initBrowser();
+		//added testng.xml
 	}
 	
 	@After
