@@ -10,14 +10,10 @@ import io.cucumber.java.Before;
 public class Hooks
 {
 	WebDriver driver;
-//	LaunchBrowser lb = new LaunchBrowser();
 	@Before
 	public void preReq()
 	{	
-		//ChromeOptions op =new ChromeOptions();
-		//op.addArguments("--incognito");
-	    //op.addArguments("start-maximized");
-         LaunchBrowser lb = new LaunchBrowser();
+        LaunchBrowser lb = new LaunchBrowser();
 		driver = lb.initBrowser();
 	}
 	
