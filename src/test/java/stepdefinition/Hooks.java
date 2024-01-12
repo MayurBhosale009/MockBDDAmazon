@@ -1,6 +1,7 @@
 package stepdefinition;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import driverfactory.LaunchBrowser;
 import io.cucumber.java.After;
@@ -13,7 +14,10 @@ public class Hooks
 	@Before
 	public void preReq()
 	{	
-		LaunchBrowser lb = new LaunchBrowser();
+		//ChromeOptions op =new ChromeOptions();
+		//op.addArguments("--incognito");
+	    //op.addArguments("start-maximized");
+         LaunchBrowser lb = new LaunchBrowser();
 		driver = lb.initBrowser();
 	}
 	

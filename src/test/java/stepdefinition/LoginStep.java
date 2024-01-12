@@ -87,6 +87,6 @@ public class LoginStep
 	@Then("User redirects to the Home Page of Amazon Site")
 	public void user_redirects_to_the_home_page_of_amazon_site() 
 	{
-
+         System.out.println("login successfull");
 	}
 }
