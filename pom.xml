@@ -94,7 +94,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
           <version>2.20</version>
           <configuration>
           <suiteXmlFiles>
-          	<suiteXmlFile>tutorialtestng.xml</suiteXmlFile>
+          	<suiteXmlFile>LoginSteptestng.xml</suiteXmlFile>
           </suiteXmlFiles>         
           </configuration>
         </plugin> 
