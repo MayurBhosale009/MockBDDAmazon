@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jan 16 13:13:17 IST 2024</td>
+<td>Started on:</td><td>Tue Jan 16 13:19:01 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>20 seconds (20039 ms)</td>
+<tr><td>Total time:</td><td>25 seconds (25663 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,15 +77,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='tutorialpkg.TutorialRunner.runScenario()'><b>runScenario</b><br>Test class: tutorialpkg.TutorialRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Selenium - Automation Practice Form", "Optional[Tutorial Feature]"</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;text&quot; id=&quot;dateOfBirthInput&quot; class=&quot;form-control&quot; value=&quot;16 Jan 2024&quot;&gt; is not clickable at point (627, 547). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;https://582a1f8dbca909df31ba31a9bfb20ebc.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html&quot; id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; name=&quot;&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;728&quot; height=&quot;90&quot; data-is-safeframe=&quot;true&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; data-google-container-id=&quot;1&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;hobbies-checkbox-1&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (570, 274). Other element would receive the click: &lt;td&gt;...&lt;/td&gt;
   (Session info: chrome=120.0.6099.217)
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [960fcd30c966d0041c0e8d750a2ab40c, clickElement {id=D67C2EBEF81D108E0E0CFA06D98A0B7A_element_98}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\om\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55389/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (960fcd30c966d0041c0e8d750a2ab40c)] -&gt; xpath: //*[@id=&apos;dateOfBirthInput&apos;]]
-Session ID: 960fcd30c966d0041c0e8d750a2ab40c
+Command: [dad5345d69ad6efa44aa1d5264842bd0, clickElement {id=E727B22EA84BE5247151AEFCD84E0AE6_element_59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\om\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55694}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55694/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dad5345d69ad6efa44aa1d5264842bd0)] -&gt; xpath: //*[text()=&apos;Sports&apos;]]
+Session ID: dad5345d69ad6efa44aa1d5264842bd0
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -106,19 +106,19 @@ Session ID: 960fcd30c966d0041c0e8d750a2ab40c
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
-	at pageclasses.TutorialPage.formFilling(TutorialPage.java:100)
+	at pageclasses.TutorialPage.formFilling(TutorialPage.java:119)
 	at tutorialpkg.TutorialStep.user_fills_the_student_registration_form(TutorialStep.java:32)
 	at ✽.User fills the Student Registration Form(file:///C:/Users/om/eclipse-workspace/MockBDDAmazon/src/test/resources/features/tutorial.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1465663131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1465663131'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;text&quot; id=&quot;dateOfBirthInput&quot; class=&quot;form-control&quot; value=&quot;16 Jan 2024&quot;&gt; is not clickable at point (627, 547). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;https://582a1f8dbca909df31ba31a9bfb20ebc.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html&quot; id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; name=&quot;&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;728&quot; height=&quot;90&quot; data-is-safeframe=&quot;true&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; data-google-container-id=&quot;1&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
+</pre></div><a href='#' onClick='toggleBox("stack-trace2028767654", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2028767654'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;hobbies-checkbox-1&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (570, 274). Other element would receive the click: &lt;td&gt;...&lt;/td&gt;
   (Session info: chrome=120.0.6099.217)
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [960fcd30c966d0041c0e8d750a2ab40c, clickElement {id=D67C2EBEF81D108E0E0CFA06D98A0B7A_element_98}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\om\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55389/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (960fcd30c966d0041c0e8d750a2ab40c)] -&gt; xpath: //*[@id=&apos;dateOfBirthInput&apos;]]
-Session ID: 960fcd30c966d0041c0e8d750a2ab40c
+Command: [dad5345d69ad6efa44aa1d5264842bd0, clickElement {id=E727B22EA84BE5247151AEFCD84E0AE6_element_59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\om\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55694}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55694/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dad5345d69ad6efa44aa1d5264842bd0)] -&gt; xpath: //*[text()=&apos;Sports&apos;]]
+Session ID: dad5345d69ad6efa44aa1d5264842bd0
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -139,11 +139,11 @@ Session ID: 960fcd30c966d0041c0e8d750a2ab40c
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
-	at pageclasses.TutorialPage.formFilling(TutorialPage.java:100)
+	at pageclasses.TutorialPage.formFilling(TutorialPage.java:119)
 	at tutorialpkg.TutorialStep.user_fills_the_student_registration_form(TutorialStep.java:32)
 	at ✽.User fills the Student Registration Form(file:///C:/Users/om/eclipse-workspace/MockBDDAmazon/src/test/resources/features/tutorial.feature:5)
 </pre></div></td>
-<td>16</td>
+<td>22</td>
 <td>tutorialpkg.TutorialRunner@3ba987b8</td></tr>
 </table><p>
 </body>

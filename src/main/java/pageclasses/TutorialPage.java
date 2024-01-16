@@ -112,7 +112,7 @@ public class TutorialPage
 		dob_date.click();
 
 		subject.click();
-		Actions act = new Actions(driver);//
+		Actions act = new Actions(driver);
 		act.sendKeys("mat").sendKeys(Keys.ENTER)
 		.sendKeys("EnGlI").sendKeys(Keys.ENTER).build().perform();
 		
