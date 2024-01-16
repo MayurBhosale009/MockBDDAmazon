@@ -116,6 +116,7 @@ public class TutorialPage
 
 		subject.click();
 		Actions act = new Actions(driver);
+		Thread.sleep(2000);
 		act.sendKeys("mat").sendKeys(Keys.ENTER)
 		.sendKeys("EnGlI").sendKeys(Keys.ENTER).build().perform();
 		
@@ -123,6 +124,7 @@ public class TutorialPage
 		JavascriptExecutor js2 = (JavascriptExecutor) driver;
 		js2.executeScript("arguments[0].click();", hob_sports);
 		//hob_sports.click();
+		Thread.sleep(2000);
 		upload_pic_button.sendKeys("C:\\Users\\intel\\Desktop\\Screenshot (487).png");
 
 		
@@ -130,7 +132,7 @@ public class TutorialPage
 		act.sendKeys(Keys.TAB).build().perform();
 
 		act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN)
-		.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
+		.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform(); 
 
 		act.sendKeys(Keys.TAB).build().perform();
 		act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
