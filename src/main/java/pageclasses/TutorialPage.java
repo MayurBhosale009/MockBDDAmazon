@@ -1,7 +1,5 @@
 package pageclasses;
 
-
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -9,9 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import org.openqa.selenium.support.ui.Select;
-
 
 public class TutorialPage 
 {
@@ -124,8 +120,12 @@ public class TutorialPage
 		JavascriptExecutor js2 = (JavascriptExecutor) driver;
 		js2.executeScript("arguments[0].click();", hob_sports);
 		//hob_sports.click();
+<<<<<<< HEAD
 		Thread.sleep(2000);
 		upload_pic_button.sendKeys("C:\\Users\\intel\\Desktop\\Screenshot (487).png");
+=======
+		upload_pic_button.sendKeys(System.getProperty("user.dir")+"\\src\\test\\resources\\Image\\Screenshot (3).png");
+>>>>>>> 4626d9a3b1a708a894046c8b1ce0eeeffde74958
 
 		
 		address.sendKeys("XYZ Street");
