@@ -101,14 +101,16 @@ public class TutorialPage
 		sel_year.selectByVisibleText("1989");
 		Thread.sleep(1000);
 		dob_date.click();
+		
+		JavascriptExecutor js1 = (JavascriptExecutor) driver;
+		js1.executeScript("arguments[0].click();", subject);
 
-		subject.click();
 		Actions act = new Actions(driver);
 		act.sendKeys("mat").sendKeys(Keys.ENTER)
 		.sendKeys("EnGlI").sendKeys(Keys.ENTER).build().perform();
 		
-		JavascriptExecutor js1 = (JavascriptExecutor) driver;
-		js1.executeScript("arguments[0].click();", hob_sports);
+		JavascriptExecutor js2 = (JavascriptExecutor) driver;
+		js2.executeScript("arguments[0].click();", hob_sports);
 		//hob_sports.click();
 		upload_pic_button.sendKeys(System.getProperty("user.dir")+"\\src\\test\\resources\\Image\\Screenshot (3).png");
 	
@@ -121,7 +123,7 @@ public class TutorialPage
 		act.sendKeys(Keys.TAB).build().perform();
 		act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
 
-		JavascriptExecutor js2 = (JavascriptExecutor) driver;
-		js2.executeScript("arguments[0].click();", submit_button);
+		JavascriptExecutor js3 = (JavascriptExecutor) driver;
+		js3.executeScript("arguments[0].click();", submit_button);
 	}
 }
