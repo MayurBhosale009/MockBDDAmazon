@@ -102,12 +102,17 @@ public class TutorialPage
 		Thread.sleep(1000);
 		dob_date.click();
 		
-		JavascriptExecutor js1 = (JavascriptExecutor) driver;
-		js1.executeScript("arguments[0].click();", subject);
-
+		subject.click();
 		Actions act = new Actions(driver);
+		Thread.sleep(2000);
 		act.sendKeys("mat").sendKeys(Keys.ENTER)
 		.sendKeys("EnGlI").sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+//		JavascriptExecutor js1 = (JavascriptExecutor) driver;
+//		js1.executeScript("arguments[0].click();", subject);
+//		Actions act = new Actions(driver);
+//		act.sendKeys("mat").sendKeys(Keys.ENTER)
+//		.sendKeys("EnGlI").sendKeys(Keys.ENTER).build().perform();
 		
 		JavascriptExecutor js2 = (JavascriptExecutor) driver;
 		js2.executeScript("arguments[0].click();", hob_sports);
