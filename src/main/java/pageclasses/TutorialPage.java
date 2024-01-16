@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class TutorialPage 
 {
-	WebDriver driver;
+	WebDriver driver;// public static
 	
 	private @FindBy(xpath="//*[text()='Book Store Application']")
 	WebElement click_book;
@@ -72,8 +72,10 @@ public class TutorialPage
 	public TutorialPage(WebDriver driver)
 	{
 		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver,this);
 	}
+	
+	
 	Actions act = new Actions(driver);
 	public void clickBook()
 	{
