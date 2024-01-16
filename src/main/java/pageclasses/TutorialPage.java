@@ -98,17 +98,12 @@ public class TutorialPage
 	
 		dob.click();
 		Thread.sleep(2000);
-//		dob_month.click();
 		Select sel_month = new Select(dob_month);
 		sel_month.selectByIndex(8);
 		Thread.sleep(2000);
-//		dob_year.click();
 		Select sel_year = new Select(dob_year);
 		sel_year.selectByVisibleText("1989");
 		Thread.sleep(2000);
-//		dob_date.click();
-//		Select sel_date = new Select(dob_date);
-//		sel_date.selectByValue("9");
 		dob_date.click();
 
 		subject.click();
