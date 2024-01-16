@@ -1,6 +1,6 @@
 package pageclasses;
 
-import java.time.Duration;
+
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -9,13 +9,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class TutorialPage 
 {
-	WebDriver driver;
+	WebDriver driver;// public static
 	
 	private @FindBy(xpath="//*[text()='Book Store Application']")
 	WebElement click_book;
@@ -80,6 +80,9 @@ public class TutorialPage
 		PageFactory.initElements(driver,this);
 	}
 
+	
+	
+	
 	public void clickBook()
 	{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -116,10 +119,12 @@ public class TutorialPage
 		act.sendKeys("mat").sendKeys(Keys.ENTER)
 		.sendKeys("EnGlI").sendKeys(Keys.ENTER).build().perform();
 		
+
 		JavascriptExecutor js2 = (JavascriptExecutor) driver;
 		js2.executeScript("arguments[0].click();", hob_sports);
 		//hob_sports.click();
 		upload_pic_button.sendKeys("C:\\Users\\intel\\Desktop\\Screenshot (487).png");
+
 		
 		address.sendKeys("XYZ Street");
 		act.sendKeys(Keys.TAB).build().perform();
