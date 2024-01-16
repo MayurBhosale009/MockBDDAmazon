@@ -38,14 +38,14 @@ public class TutorialPage
 	private @FindBy(xpath="//*[@id='dateOfBirthInput']")
 	WebElement dob;
 	
-	private @FindBy(xpath="//*[text()='9']")
-	WebElement dob_date;// vary date next time
-	
 	private @FindBy(xpath="//*[@class='react-datepicker__month-select']")
 	WebElement dob_month;
 	
 	private @FindBy(xpath="//*[@class='react-datepicker__year-select']")
 	WebElement dob_year;
+	
+	private @FindBy(xpath="//*[text()='9']")
+	WebElement dob_date;// vary date next time
 	
 	private @FindBy(xpath="//*[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']")
 	WebElement subject;
@@ -84,10 +84,6 @@ public class TutorialPage
 	{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", click_book);
-		Actions act = new Actions(driver);
-//		act.scrollByAmount(0, 500);
-//		WebDriverWait wt = new WebDriverWait(driver,Duration.ofSeconds(60));
-//		wt.until(ExpectedConditions.visibilityOf(click_book)).click();
 		click_book.click();
 	}
 	
