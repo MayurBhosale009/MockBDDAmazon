@@ -2,49 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <suite started-at="2024-01-12T13:24:01 IST" name="Default suite" finished-at="2024-01-12T13:25:43 IST" duration-ms="102535">
-=======
-  <suite started-at="2024-01-12T13:19:50 IST" name="Suite" finished-at="2024-01-12T13:20:17 IST" duration-ms="26761">
->>>>>>> 62406837f05927793a5450abcb0053f3b95fd39c
+  <suite started-at="2024-01-16T13:00:44 IST" name="Default suite" finished-at="2024-01-16T13:01:29 IST" duration-ms="45171">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepdefinition.LoginRunner@74d1dc36]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-<<<<<<< HEAD
-    <test started-at="2024-01-12T13:24:01 IST" name="Default test" finished-at="2024-01-12T13:25:43 IST" duration-ms="102535">
-      <class name="stepdefinition.LoginRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:stepdefinition.LoginRunner@74d1dc36]" started-at="2024-01-12T13:24:01 IST" name="setUpClass" finished-at="2024-01-12T13:24:02 IST" duration-ms="1329" status="PASS">
+    <test started-at="2024-01-16T13:00:44 IST" name="Default test" finished-at="2024-01-16T13:01:29 IST" duration-ms="45171">
+      <class name="tutorialpkg.TutorialRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T13:00:44 IST" name="setUpClass" finished-at="2024-01-16T13:00:45 IST" duration-ms="1069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepdefinition.LoginRunner@74d1dc36]" started-at="2024-01-12T13:24:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-12T13:25:40 IST" duration-ms="98108" status="PASS">
-=======
-    <test started-at="2024-01-12T13:19:50 IST" name="Test" finished-at="2024-01-12T13:20:17 IST" duration-ms="26761">
-      <class name="stepdefinition.LoginRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:stepdefinition.LoginRunner@1cf6d1be]" started-at="2024-01-12T13:19:50 IST" name="setUpClass" finished-at="2024-01-12T13:19:51 IST" duration-ms="740" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepdefinition.LoginRunner@1cf6d1be]" started-at="2024-01-12T13:19:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-12T13:20:15 IST" duration-ms="23454" status="FAIL">
->>>>>>> 62406837f05927793a5450abcb0053f3b95fd39c
-=======
-  <suite started-at="2024-01-15T15:12:33 IST" name="Suite" finished-at="2024-01-15T15:12:36 IST" duration-ms="3563">
-    <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepdefinition.TutorialRunner@1cf6d1be]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
-    </groups>
-    <test started-at="2024-01-15T15:12:33 IST" name="Test" finished-at="2024-01-15T15:12:36 IST" duration-ms="3563">
-      <class name="stepdefinition.TutorialRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:stepdefinition.TutorialRunner@1cf6d1be]" started-at="2024-01-15T15:12:33 IST" name="setUpClass" finished-at="2024-01-15T15:12:34 IST" duration-ms="1077" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepdefinition.TutorialRunner@1cf6d1be]" started-at="2024-01-15T15:12:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-15T15:12:34 IST" duration-ms="331" status="FAIL">
->>>>>>> origin/mayur
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T13:00:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-16T13:01:27 IST" duration-ms="42396" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,86 +27,14 @@
               </value>
             </param>
           </params>
-<<<<<<< HEAD
-<<<<<<< HEAD
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:stepdefinition.LoginRunner@74d1dc36]" started-at="2024-01-12T13:25:40 IST" name="tearDownClass" finished-at="2024-01-12T13:25:43 IST" duration-ms="2976" status="PASS">
-=======
-          <exception class="org.openqa.selenium.NoSuchElementException">
-=======
-          <exception class="io.cucumber.testng.UndefinedStepException">
->>>>>>> origin/mayur
-            <message>
-              <![CDATA[The step "User is at the Practice Form Tab" is undefined. You can implement it using the snippet(s) below:
-
-@Given("User is at the Practice Form Tab")
-public void user_is_at_the_practice_form_tab() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step "User is at the Practice Form Tab" is undefined. You can implement it using the snippet(s) below:
-
-@Given("User is at the Practice Form Tab")
-public void user_is_at_the_practice_form_tab() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:102)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:stepdefinition.LoginRunner@1cf6d1be]" started-at="2024-01-12T13:20:15 IST" name="tearDownClass" finished-at="2024-01-12T13:20:17 IST" duration-ms="2458" status="PASS">
->>>>>>> 62406837f05927793a5450abcb0053f3b95fd39c
-=======
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:stepdefinition.TutorialRunner@1cf6d1be]" started-at="2024-01-15T15:12:34 IST" name="tearDownClass" finished-at="2024-01-15T15:12:36 IST" duration-ms="2021" status="PASS">
->>>>>>> origin/mayur
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T13:01:27 IST" name="tearDownClass" finished-at="2024-01-16T13:01:29 IST" duration-ms="1602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- stepdefinition.TutorialRunner -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- tutorialpkg.TutorialRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

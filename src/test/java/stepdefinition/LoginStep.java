@@ -2,7 +2,6 @@ package stepdefinition;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 
 import driverfactory.LaunchBrowser;
@@ -10,7 +9,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageclasses.LoginPage;
-import io.cucumber.datatable.DataTable;
 
 public class LoginStep 
 {
