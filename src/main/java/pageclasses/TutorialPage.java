@@ -119,7 +119,7 @@ public class TutorialPage
 		JavascriptExecutor js2 = (JavascriptExecutor) driver;
 		js2.executeScript("arguments[0].click();", hob_sports);
 		//hob_sports.click();
-		upload_pic_button.sendKeys("src\\test\\resources\\Image\\Screenshot (3).png");
+		upload_pic_button.sendKeys(System.getProperty("user.dir")+"\\src\\test\\resources\\Image\\Screenshot (3).png");
 
 		
 		address.sendKeys("XYZ Street");
