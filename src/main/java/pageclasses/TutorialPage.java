@@ -1,7 +1,5 @@
 package pageclasses;
 
-import java.time.Duration;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -9,9 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TutorialPage 
 {
@@ -79,7 +75,7 @@ public class TutorialPage
 		this.driver = driver;
 		PageFactory.initElements(driver,this);
 	}
-
+	
 	public void clickBook()
 	{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -97,13 +93,13 @@ public class TutorialPage
 		mob.sendKeys("9797979797");
 	
 		dob.click();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		Select sel_month = new Select(dob_month);
 		sel_month.selectByIndex(8);
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		Select sel_year = new Select(dob_year);
 		sel_year.selectByVisibleText("1989");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		dob_date.click();
 
 		subject.click();
@@ -111,9 +107,11 @@ public class TutorialPage
 		act.sendKeys("mat").sendKeys(Keys.ENTER)
 		.sendKeys("EnGlI").sendKeys(Keys.ENTER).build().perform();
 		
-		hob_sports.click();
-		upload_pic_button.sendKeys("C:\\Users\\om\\Pictures\\Screenshot 2023-06-23 193617.png");
-		
+		JavascriptExecutor js1 = (JavascriptExecutor) driver;
+		js1.executeScript("arguments[0].click();", hob_sports);
+		//hob_sports.click();
+		upload_pic_button.sendKeys(System.getProperty("user.dir")+"\\src\\test\\resources\\Image\\Screenshot (3).png");
+	
 		address.sendKeys("XYZ Street");
 		act.sendKeys(Keys.TAB).build().perform();
 
@@ -123,7 +121,7 @@ public class TutorialPage
 		act.sendKeys(Keys.TAB).build().perform();
 		act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
 
-		JavascriptExecutor js1 = (JavascriptExecutor) driver;
-		js1.executeScript("arguments[0].click();", submit_button);
+		JavascriptExecutor js2 = (JavascriptExecutor) driver;
+		js2.executeScript("arguments[0].click();", submit_button);
 	}
 }

@@ -1,20 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
+  <suite started-at="2024-01-16T16:31:51 IST" name="Suite" finished-at="2024-01-16T16:32:53 IST" duration-ms="62681">
+=======
+<<<<<<< HEAD
+  <suite started-at="2024-01-16T16:29:18 IST" name="Suite" finished-at="2024-01-16T16:30:03 IST" duration-ms="45147">
+=======
+<<<<<<< HEAD
+  <suite started-at="2024-01-15T22:37:18 IST" name="Default suite" finished-at="2024-01-15T22:37:29 IST" duration-ms="10619">
+>>>>>>> c3b33f3ff0e3868d992a4c3794d932270663c6ea
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tutorialpkg.TutorialRunner@8519cb4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+<<<<<<< HEAD
+    <test started-at="2024-01-16T16:31:51 IST" name="Test" finished-at="2024-01-16T16:32:53 IST" duration-ms="62681">
+      <class name="tutorialpkg.TutorialRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tutorialpkg.TutorialRunner@8519cb4]" started-at="2024-01-16T16:31:51 IST" name="setUpClass" finished-at="2024-01-16T16:31:53 IST" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tutorialpkg.TutorialRunner@8519cb4]" started-at="2024-01-16T16:31:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-16T16:32:49 IST" duration-ms="56192" status="PASS">
+=======
+    <test started-at="2024-01-15T22:37:18 IST" name="Default test" finished-at="2024-01-15T22:37:29 IST" duration-ms="10619">
+      <class name="execution.TutorialRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:execution.TutorialRunner@74d1dc36]" started-at="2024-01-15T22:37:18 IST" name="setUpClass" finished-at="2024-01-15T22:37:19 IST" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:execution.TutorialRunner@74d1dc36]" started-at="2024-01-15T22:37:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-15T22:37:24 IST" duration-ms="4631" status="FAIL">
+=======
   <suite started-at="2024-01-16T13:19:01 IST" name="Default suite" finished-at="2024-01-16T13:19:26 IST" duration-ms="25663">
+>>>>>>> 31ae06c901a2b46a2aea44dabf4db9ca74a883ad
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-01-16T13:19:01 IST" name="Default test" finished-at="2024-01-16T13:19:26 IST" duration-ms="25663">
+    <test started-at="2024-01-16T16:29:18 IST" name="Test" finished-at="2024-01-16T16:30:03 IST" duration-ms="45147">
       <class name="tutorialpkg.TutorialRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T13:19:01 IST" name="setUpClass" finished-at="2024-01-16T13:19:02 IST" duration-ms="1497" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T16:29:18 IST" name="setUpClass" finished-at="2024-01-16T16:29:19 IST" duration-ms="1055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T16:29:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-16T16:30:00 IST" duration-ms="41568" status="PASS">
+=======
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T13:19:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-16T13:19:24 IST" duration-ms="22048" status="FAIL">
+>>>>>>> ddd394316ccea786bb341d9945d9d1ad03321af6
+>>>>>>> 31ae06c901a2b46a2aea44dabf4db9ca74a883ad
+>>>>>>> c3b33f3ff0e3868d992a4c3794d932270663c6ea
           <params>
             <param index="0">
               <value>
@@ -27,6 +65,38 @@
               </value>
             </param>
           </params>
+<<<<<<< HEAD
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tutorialpkg.TutorialRunner@8519cb4]" started-at="2024-01-16T16:32:49 IST" name="tearDownClass" finished-at="2024-01-16T16:32:53 IST" duration-ms="4028" status="PASS">
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class execution.TutorialStep]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class execution.TutorialStep
+at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:140)
+at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:124)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+=======
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <label title="" for="hobbies-checkbox-1" class="custom-control-label">...</label> is not clickable at point (570, 274). Other element would receive the click: <td>...</td>
@@ -63,10 +133,62 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+>>>>>>> ddd394316ccea786bb341d9945d9d1ad03321af6
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+<<<<<<< HEAD
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:132)
+... 43 more
+Caused by: java.lang.IllegalArgumentException: Driver must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:59)
+at pageclasses.TutorialPage.<init>(TutorialPage.java:79)
+at execution.TutorialStep.<init>(TutorialStep.java:16)
+... 49 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:execution.TutorialRunner@74d1dc36]" started-at="2024-01-15T22:37:24 IST" name="tearDownClass" finished-at="2024-01-15T22:37:29 IST" duration-ms="4848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- execution.TutorialRunner -->
+=======
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
 at pageclasses.TutorialPage.formFilling(TutorialPage.java:119)
@@ -75,14 +197,27 @@ at ✽.User fills the Student Registration Form(file:///C:/Users/om/eclipse-work
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+>>>>>>> 31ae06c901a2b46a2aea44dabf4db9ca74a883ad
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T13:19:24 IST" name="tearDownClass" finished-at="2024-01-16T13:19:26 IST" duration-ms="1964" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T16:30:00 IST" name="tearDownClass" finished-at="2024-01-16T16:30:03 IST" duration-ms="2401" status="PASS">
+>>>>>>> c3b33f3ff0e3868d992a4c3794d932270663c6ea
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- tutorialpkg.TutorialRunner -->
+<<<<<<< HEAD
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+=======
+<<<<<<< HEAD
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+=======
+>>>>>>> ddd394316ccea786bb341d9945d9d1ad03321af6
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
+>>>>>>> 31ae06c901a2b46a2aea44dabf4db9ca74a883ad
+>>>>>>> c3b33f3ff0e3868d992a4c3794d932270663c6ea
 </testng-results>

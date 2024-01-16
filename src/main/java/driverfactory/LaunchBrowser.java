@@ -13,6 +13,7 @@ public class LaunchBrowser
 		op.addArguments("--incognito");
 		op.addArguments("start-maximized");
 		driver = new ChromeDriver(op);
+
 		return driver;
 	}
 
