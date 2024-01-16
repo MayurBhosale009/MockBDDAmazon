@@ -47,10 +47,10 @@ public class TutorialStep
 	}
 
 
-	public void user_redirects_to_the_next_page() 
-	{
-		System.out.println("Registration Successfully.");
-
+	@Then("User redirects to the Next Page")
+	public void user_redirects_to_the_next_page() {
+	    System.out.println("Registration Successful");
 	}
+
 
 }

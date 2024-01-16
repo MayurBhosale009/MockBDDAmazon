@@ -16,10 +16,10 @@ public class Hooks
 		driver = lb.initBrowser();
 	}
 	
-//	@After
-//	public void postReq() throws InterruptedException
-//	{
-//		Thread.sleep(5000);
-//		driver.quit();
-//	}
+	@After
+	public void postReq() throws InterruptedException
+	{
+		Thread.sleep(5000);
+		driver.quit();
+	}
 }

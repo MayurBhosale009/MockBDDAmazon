@@ -120,7 +120,7 @@ public class TutorialPage
 		.sendKeys("EnGlI").sendKeys(Keys.ENTER).build().perform();
 		
 		hob_sports.click();
-		upload_pic_button.sendKeys("C:\\Users\\om\\Pictures\\Screenshot 2023-06-23 193617.png");
+		upload_pic_button.sendKeys("C:\\Users\\Admin\\Pictures\\Screenshots");
 		
 		address.sendKeys("XYZ Street");
 		act.sendKeys(Keys.TAB).build().perform();
