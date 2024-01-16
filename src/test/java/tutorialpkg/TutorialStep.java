@@ -1,4 +1,6 @@
-package execution;
+
+package tutorialpkg;
+
 
 import org.openqa.selenium.WebDriver;
 
@@ -12,8 +14,12 @@ import pageclasses.TutorialPage;
 
 public class TutorialStep 
 {
-	 WebDriver driver;
-	TutorialPage tp=new TutorialPage(LaunchBrowser.getDriver());
+
+
+	WebDriver driver;
+	TutorialPage tp = new TutorialPage(LaunchBrowser.getDriver());
+	
+
 	@Given("User is at the Practice Form Tab")
 	public void user_is_at_the_practice_form_tab() 
 	{
@@ -22,14 +28,14 @@ public class TutorialStep
 	}
 
 	@When("User clicks on Book Store Application tab on left side of window")
-	public void user_clicks_on_book_store_application_tab_on_left_side_of_window()
+	public void user_clicks_on_book_store_application_tab_on_left_side_of_window() 
 	{
 		tp.clickBook();
 	   
 	}
 
 	@When("User fills the Student Registration Form")
-	public void user_fills_the_student_registration_form() throws InterruptedException
+	public void user_fills_the_student_registration_form() throws InterruptedException 
 	{
 	   tp.formFilling();
 	}
@@ -40,9 +46,11 @@ public class TutorialStep
 		
 	}
 
-	@Then("User redirects to the Next Page")
-	public void user_redirects_to_the_next_page() {
-	   System.out.println("Registration successfull");
+
+	public void user_redirects_to_the_next_page() 
+	{
+		System.out.println("Registration Successfully.");
+
 	}
 
 }

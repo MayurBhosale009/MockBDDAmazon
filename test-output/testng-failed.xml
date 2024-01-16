@@ -3,13 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="execution.TutorialRunner">
+=======
+      <class name="tutorialpkg.TutorialRunner">
+>>>>>>> ddd394316ccea786bb341d9945d9d1ad03321af6
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="0"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- execution.TutorialRunner -->
+=======
+      </class> <!-- tutorialpkg.TutorialRunner -->
+>>>>>>> ddd394316ccea786bb341d9945d9d1ad03321af6
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

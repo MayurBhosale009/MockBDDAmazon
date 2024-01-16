@@ -9,14 +9,11 @@ public class LaunchBrowser
 	public static WebDriver driver;
 	public WebDriver initBrowser()
 	{
-//
-//		ChromeOptions op =new ChromeOptions();
-//		op.addArguments("--incognito");
-//		op.addArguments("start-maximized");
-		driver = new ChromeDriver();
-		//driver.manage().window().maximize();
+		ChromeOptions op = new ChromeOptions();
+		op.addArguments("--incognito");
+		op.addArguments("start-maximized");
+		driver = new ChromeDriver(op);
 
-//>>>>>>> 62406837f05927793a5450abcb0053f3b95fd39c
 		return driver;
 	}
 

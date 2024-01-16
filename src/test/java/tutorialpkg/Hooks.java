@@ -1,7 +1,6 @@
-package execution;
+package tutorialpkg;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 
 import driverfactory.LaunchBrowser;
 import io.cucumber.java.After;
@@ -9,15 +8,12 @@ import io.cucumber.java.Before;
 
 public class Hooks
 {
-	WebDriver driver;
+	WebDriver driver;// gets value
 	@Before
 	public void preReq()
-
 	{	
         LaunchBrowser lb = new LaunchBrowser();
-//>>>>>>> 62406837f05927793a5450abcb0053f3b95fd39c
 		driver = lb.initBrowser();
-		//added testng.xml
 	}
 	
 //	@After

@@ -72,17 +72,6 @@ public class LoginPage
 		signin_button.click();
 	}
 	
-//	public WebElement wrongPass()
-//	{
-//		return wrong_pass;
-//		return logout_hower;
-//	}
-//	public WebElement rightPass()
-//	{
-//		return wrong_pass;
-//		return logout_hower;
-//	}
-	
 	public void signOut() throws InterruptedException
 	{
 		Actions act = new Actions(driver);
