@@ -116,8 +116,10 @@ public class TutorialPage
 		act.sendKeys("mat").sendKeys(Keys.ENTER)
 		.sendKeys("EnGlI").sendKeys(Keys.ENTER).build().perform();
 		
-		hob_sports.click();
-		upload_pic_button.sendKeys("C:\\Users\\om\\Pictures\\Screenshot 2023-06-23 193617.png");
+		JavascriptExecutor js2 = (JavascriptExecutor) driver;
+		js2.executeScript("arguments[0].click();", hob_sports);
+		//hob_sports.click();
+		upload_pic_button.sendKeys("C:\\Users\\intel\\Desktop\\Screenshot (487).png");
 		
 		address.sendKeys("XYZ Street");
 		act.sendKeys(Keys.TAB).build().perform();
