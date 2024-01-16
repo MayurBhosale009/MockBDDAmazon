@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class LaunchBrowser 
 {
-	public static WebDriver driver;
+public static WebDriver driver;
 	public WebDriver initBrowser()
 	{
 		ChromeOptions op = new ChromeOptions();

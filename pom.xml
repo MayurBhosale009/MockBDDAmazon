@@ -81,13 +81,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-<<<<<<< HEAD
+
           <version>3.9.0</version>
-=======
 
-          <version>3.12.0</version>
-
->>>>>>> 4626d9a3b1a708a894046c8b1ce0eeeffde74958
           <configuration>
             <source>1.8</source>
             <target>1.8</target>
