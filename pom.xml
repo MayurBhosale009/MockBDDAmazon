@@ -22,6 +22,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
   <dependencies>   
 	  <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 <dependency>
+	 <!--due to successfully run on jenkins-->
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>
     <version>1.18.30</version>
