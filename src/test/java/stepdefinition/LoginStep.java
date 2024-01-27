@@ -54,7 +54,7 @@ public class LoginStep
 		String right_title = "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in";
 		for(int i=0; i<al.size(); i=i+2)//2
 		{
-			lp.mobTextbox(al.get(i));//918788584611
+			//lp.mobTextbox(al.get(i));//918788584611 // did comment by ishwar please remove
 			lp.mobContinue();
 			lp.passTextbox(al.get(i+1));//Pass@123
 			lp.signinButton();
@@ -79,7 +79,7 @@ public class LoginStep
 	@When("User clicks on Signin button")
 	public void user_clicks_on_signin_button() 
 	{				
-		//lp.signinButton();
+		lp.signinButton();
 	}
 
 	@Then("User redirects to the Home Page of Amazon Site")
