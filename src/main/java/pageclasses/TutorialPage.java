@@ -119,12 +119,7 @@ public class TutorialPage
 		//hob_sports.click();
 		Thread.sleep(2000);
 		upload_pic_button.sendKeys(System.getProperty("user.dir")+"\\src\\test\\resources\\Image\\Screenshot (3).png");
-<<<<<<< HEAD
-	
-=======
 
-		
->>>>>>> de1f4981d12346280b3fd0841f869aef41fe5ce8
 		address.sendKeys("XYZ Street");
 		act.sendKeys(Keys.TAB).build().perform();
 
