@@ -3,6 +3,9 @@
   <reporter-output>
   </reporter-output>
 <<<<<<< HEAD
+  <suite started-at="2024-01-16T17:28:58 IST" name="Default suite" finished-at="2024-01-16T17:29:37 IST" duration-ms="38913">
+=======
+<<<<<<< HEAD
   <suite started-at="2024-01-16T16:31:51 IST" name="Suite" finished-at="2024-01-16T16:32:53 IST" duration-ms="62681">
 =======
 <<<<<<< HEAD
@@ -35,17 +38,21 @@
 =======
   <suite started-at="2024-01-16T13:19:01 IST" name="Default suite" finished-at="2024-01-16T13:19:26 IST" duration-ms="25663">
 >>>>>>> 31ae06c901a2b46a2aea44dabf4db9ca74a883ad
+>>>>>>> 4626d9a3b1a708a894046c8b1ce0eeeffde74958
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-01-16T16:29:18 IST" name="Test" finished-at="2024-01-16T16:30:03 IST" duration-ms="45147">
+    <test started-at="2024-01-16T17:28:58 IST" name="Default test" finished-at="2024-01-16T17:29:37 IST" duration-ms="38913">
       <class name="tutorialpkg.TutorialRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T16:29:18 IST" name="setUpClass" finished-at="2024-01-16T16:29:19 IST" duration-ms="1055" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T17:28:58 IST" name="setUpClass" finished-at="2024-01-16T17:28:58 IST" duration-ms="661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T17:28:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-16T17:29:34 IST" duration-ms="35994" status="PASS">
+=======
 <<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T16:29:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-16T16:30:00 IST" duration-ms="41568" status="PASS">
 =======
@@ -53,6 +60,7 @@
 >>>>>>> ddd394316ccea786bb341d9945d9d1ad03321af6
 >>>>>>> 31ae06c901a2b46a2aea44dabf4db9ca74a883ad
 >>>>>>> c3b33f3ff0e3868d992a4c3794d932270663c6ea
+>>>>>>> 4626d9a3b1a708a894046c8b1ce0eeeffde74958
           <params>
             <param index="0">
               <value>
@@ -65,6 +73,12 @@
               </value>
             </param>
           </params>
+<<<<<<< HEAD
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T17:29:34 IST" name="tearDownClass" finished-at="2024-01-16T17:29:37 IST" duration-ms="2177" status="PASS">
+=======
 <<<<<<< HEAD
           <reporter-output>
           </reporter-output>
@@ -203,10 +217,15 @@ at ✽.User fills the Student Registration Form(file:///C:/Users/om/eclipse-work
         </test-method> <!-- runScenario -->
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tutorialpkg.TutorialRunner@3ba987b8]" started-at="2024-01-16T16:30:00 IST" name="tearDownClass" finished-at="2024-01-16T16:30:03 IST" duration-ms="2401" status="PASS">
 >>>>>>> c3b33f3ff0e3868d992a4c3794d932270663c6ea
+>>>>>>> 4626d9a3b1a708a894046c8b1ce0eeeffde74958
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- tutorialpkg.TutorialRunner -->
+<<<<<<< HEAD
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+=======
 <<<<<<< HEAD
     </test> <!-- Test -->
   </suite> <!-- Suite -->
@@ -220,4 +239,5 @@ at ✽.User fills the Student Registration Form(file:///C:/Users/om/eclipse-work
   </suite> <!-- Default suite -->
 >>>>>>> 31ae06c901a2b46a2aea44dabf4db9ca74a883ad
 >>>>>>> c3b33f3ff0e3868d992a4c3794d932270663c6ea
+>>>>>>> 4626d9a3b1a708a894046c8b1ce0eeeffde74958
 </testng-results>

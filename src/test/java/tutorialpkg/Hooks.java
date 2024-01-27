@@ -8,14 +8,14 @@ import io.cucumber.java.Before;
 
 public class Hooks
 {
-	WebDriver driver;// gets value
+	public  WebDriver driver;// gets value
 	@Before
 	public void preReq()
 	{	
-        LaunchBrowser lb = new LaunchBrowser();
-		driver = lb.initBrowser();
+		LaunchBrowser lb = new LaunchBrowser();
+		driver=lb.initBrowser();
 	}
-	
+
 	@After
 	public void postReq() throws InterruptedException
 	{
